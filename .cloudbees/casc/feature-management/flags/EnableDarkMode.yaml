@@ -4,7 +4,7 @@ kind: flag
 
 flag: EnableDarkMode
 flagType: boolean
-description: Enables dark mode
+description: ""
 labels:
 
 availableValues:
