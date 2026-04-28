@@ -4,9 +4,7 @@ kind: flag
 
 flag: EnableVipPass
 flagType: boolean
-description: |-
-    	
-    Show VIP pass purchase option
+description: Show VIP pass purchase option
 labels:
 
 availableValues:
