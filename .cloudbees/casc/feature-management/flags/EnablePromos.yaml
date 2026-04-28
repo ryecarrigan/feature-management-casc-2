@@ -1,0 +1,14 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: EnablePromos
+flagType: boolean
+description: Show promotional offers panel
+labels:
+
+availableValues:
+  - "false"
+  - "true"
+
+isPermanent: false

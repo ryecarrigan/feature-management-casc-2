@@ -1,0 +1,21 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: EnableReviews
+
+enabled: false
+
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  - percentage: 0
+    from: 2026-04-27T17:18:00Z
+  - percentage: 10
+    from: 2026-05-05T17:23:00Z
+  - percentage: 50
+    from: 2026-05-12T17:28:00Z
+  - percentage: 100
+    from: 2026-05-19T17:33:00Z
+
+conditions: []

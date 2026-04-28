@@ -1,0 +1,16 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: EnableVipPass
+flagType: boolean
+description: |-
+    	
+    Show VIP pass purchase option
+labels:
+
+availableValues:
+  - "false"
+  - "true"
+
+isPermanent: false
