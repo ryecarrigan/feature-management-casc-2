@@ -4,7 +4,7 @@ kind: flag
 
 flag: EnableGuestCheckout
 flagType: boolean
-description: "Enables guest checkout"
+description: "Enables the guest checkout"
 labels:
 
 availableValues:
